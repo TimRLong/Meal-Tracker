@@ -1,0 +1,55 @@
+:root {
+    --1: #d53b07;
+    --2: #36b15b;
+    --3: #ebb871;
+    --4: #fff4d9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('food_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:  #ffffff;
+    text-align: center;
+    justify-content: center;
+    margin-left: 45%;
+    cursor: default;
+}
+
+h1 {
+    font-size: 50px;
+    color: var(--2);
+    /* E64848 */
+    margin: 120px 0px 40px 0px;
+    font-family: 'Bitter', serif;
+    font-weight: 1;
+}
+
+#mealt {
+    font-size: 80px;
+    color: var(--1);
+    /*C21010*/
+    font-family: 'Bitter', serif;
+    font-weight: 2;
+}
+
+button {
+    background-color: var(--4);
+    font-size: 20px;
+    font-weight: bold;
+    width: 120px;
+    padding: 10px;
+    margin: 0px 18px;
+    color: var(--2);
+    border: 2px solid var(--3);
+    border-radius: 20%;
+    font-family: 'Bitter', serif;
+    cursor: pointer;
+}
+
+
